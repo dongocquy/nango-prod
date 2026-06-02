@@ -84,8 +84,8 @@ nango-prod/
 
 | Service | Port | Image |
 |---------|------|-------|
-| nango-db | 5432 | `postgres:16.0-alpine` |
-| nango-redis | 6379 | `redis:7.2.4` |
+| nango-db | internal | `postgres:16.0-alpine` |
+| nango-redis | internal | `redis:7.2.4` |
 | nango-server | 3003, 3009 | `dongocquy/nango-server:hosted` |
 
 ## Biến môi trường quan trọng
